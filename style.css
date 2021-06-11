@@ -1,0 +1,65 @@
+:root{
+    --primary-color: rgb(250, 250, 44);
+    --secondary-color: #3B82F6;
+}
+textarea{
+    width: 30%;
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+#output{
+    width: 30%;
+    height: 10vh;
+    border: 1px solid var(--secondary-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.container {   
+    
+    height: 15vh;
+    margin: auto;
+}
+
+
+.navigation {
+    max-width: 50%;    
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-top-left-radius: 51rem;
+    border-top-right-radius:51rem;
+}
+
+.navigation .nav-brand {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#btn-translate{
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    height: 4vh;
+    color: var(--secondary-color);
+    max-width: 140px;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    max-width: 50%;    
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-bottom-left-radius: 51rem;
+    border-bottom-right-radius:51rem;
+}
