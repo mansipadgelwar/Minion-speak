@@ -36,6 +36,7 @@ textarea{
 .header {
     background-color: var(--primary-color);
     padding: 2rem;
+    display:block;
 }
 
 .header .header-name {
