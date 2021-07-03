@@ -40,7 +40,6 @@ textarea{
 
 
 .navigation {
-    max-width: 50%;    
     background-color: var(--primary-color);
     padding: 2rem;
 }
@@ -49,8 +48,8 @@ textarea{
     color: var(--secondary-color);
     font-weight: bold;
     font-size: 3rem;
-    padding-top: 2rem;
     text-align: center;
+    padding: 1rem;
 }
 
 #btn-translate{
@@ -65,9 +64,11 @@ textarea{
 }
 
 .footer{
-    max-width: 50%;    
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 2rem;
+    font-size: 1rem;
+    display:block;
+    text-align: center;
    
 }
