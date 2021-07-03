@@ -50,7 +50,6 @@ textarea{
 #btn-translate{
     background-color: var(--primary-color);
     border-radius: 5rem;
-    height: 4vh;
     color: var(--secondary-color);
     cursor: pointer;
     max-width: 140px;
