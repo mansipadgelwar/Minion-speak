@@ -33,18 +33,12 @@ textarea{
     padding: 1rem;
 }
 
-.container {      
-    height: 15vh;
-    margin: auto;
-}
-
-
-.navigation {
+.header {
     background-color: var(--primary-color);
     padding: 2rem;
 }
 
-.navigation .nav-brand {
+.header .header-name {
     color: var(--secondary-color);
     font-weight: bold;
     font-size: 3rem;
