@@ -1,2 +1,4 @@
 # Minion-speak
- Minion-speak using vanillaJS
+ A translator to convert your text from English to Minion speak or Banana language.
+ 
+ 
