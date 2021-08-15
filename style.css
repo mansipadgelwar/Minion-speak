@@ -57,6 +57,11 @@ textarea{
     margin: auto;
 }
 
+p{
+    text-align: center;
+    
+}
+
 .footer{
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -64,5 +69,6 @@ textarea{
     font-size: 1rem;
     display:block;
     text-align: center;
+    margin-top: 2rem;
    
 }
