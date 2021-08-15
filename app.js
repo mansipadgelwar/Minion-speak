@@ -17,6 +17,12 @@ function errorHandler(error){
 
 function clickHandler(){
    var inputTxt = txtInput.value;
+
+   if(inputTxt === ""){
+      alert("Please enter input text");
+   }
+   else{
+
    fetch(getTranslation(inputTxt))
     .then(response => response.json())
     .then(json => {
@@ -24,6 +30,7 @@ function clickHandler(){
        outputDiv.innerText = translatedText;
         })
     .catch(errorHandler)
-};
+      }
+}
 
 btnTranslate.addEventListener("click", clickHandler);
